@@ -1,0 +1,16 @@
+session_id,timestamp,turn,speaker,utterance,response,channel,duration_s
+6fe9ebcf,2026-05-05T15:20:46.507162,1,user,tell me a joke,,live_chat,14
+6fe9ebcf,2026-05-05T15:20:46.507176,2,user,south africa president,,live_chat,14
+6fe9ebcf,2026-05-05T15:20:46.507181,3,user,who is south africa president,,live_chat,14
+de3b87c6,2026-05-06T11:59:43.416263,1,user,Where is my order?,,live_chat,195
+de3b87c6,2026-05-06T11:59:43.416275,2,user,What is the current weather in harare right now.,,live_chat,195
+de3b87c6,2026-05-06T11:59:43.416280,3,user,I want to book an appointment at workplace wellness,,live_chat,195
+de3b87c6,2026-05-06T11:59:43.416283,4,user,What are your shipping options?,,live_chat,195
+a9b09d18,2026-05-06T12:01:25.548932,1,user,Where is my order?,You're now connected to a live agent. How can I help you?,live_chat,67
+89773f09,2026-05-06T12:06:24.739755,1,user,Kindly help me on how to set an appointment at worplace wellness center,,live_chat,282
+58b616e6,2026-05-06T15:07:05.690326,1,user,what is the weather in Harae,,live_chat,178
+58b616e6,2026-05-06T15:07:05.690357,2,user,What is the weather in Harare today,,live_chat,178
+8ae6f3e3,2026-05-07T17:38:00.982548,1,user,I need technical support,,live_chat,4619
+26bdb88d,2026-05-07T20:34:20.452805,1,user,Where is my order?,"Zimworx support dds is 
+Overview
+We are dedicated to excellence and making a global impact through its core values of faithfulness, generosity, resilience, inspiration, and excellence. The company fosters a “Growing Together” culture that promotes inclusive growth for all team members and our clients. https://zimworx.com/who-we-are/",live_chat,210
