@@ -1,6 +1,35 @@
 # Customer Support Chatbot
 
-A Flask-based customer support chatbot with intent classification, hybrid RAG (TF-IDF + Qdrant semantic search), multi-LLM support, real-time live agent handoff via Socket.IO, and RAGAS evaluation.
+# AI-Powered Customer Support Chatbot
+
+An intelligent customer support platform built with Flask that combines machine learning, Retrieval-Augmented Generation (RAG), and multi-LLM orchestration to deliver accurate, context-aware customer assistance. The system features intent classification, hybrid knowledge retrieval, real-time live agent escalation, automated model retraining, and comprehensive RAG performance evaluation.
+
+Designed for production environments, the chatbot leverages both keyword-based and semantic search to provide reliable answers from internal knowledge bases while seamlessly handling out-of-scope queries through web-enhanced retrieval and advanced language model reasoning.
+
+### Key Capabilities
+
+* **Advanced Intent Classification** using TF-IDF feature engineering and calibrated Support Vector Machines (SVMs)
+* **Hybrid Retrieval-Augmented Generation (RAG)** combining TF-IDF keyword search with Qdrant vector similarity search
+* **Multi-LLM Architecture** utilizing Mistral for response generation and Gemini for contextual query analysis
+* **Intelligent Out-of-Scope (OOS) Handling** with multi-stage routing, semantic analysis, and web-based retrieval
+* **Real-Time Live Agent Handoff** through Socket.IO-powered communication channels
+* **Continuous Learning** via automatic retraining from newly collected customer interactions
+* **RAGAS-Based Evaluation Framework** for monitoring and benchmarking response quality
+* **Administrative Dashboard** for model management, evaluation, analytics, and knowledge base monitoring
+
+### Technical Highlights
+
+* Flask 3.1 and Flask-SocketIO backend architecture
+* Hybrid search pipeline (TF-IDF + Dense Vector Search)
+* Qdrant vector database integration
+* LangChain-powered LLM orchestration
+* Automatic model fallback and resilience mechanisms
+* Synthetic data generation for OOD (Out-of-Distribution) testing
+* Real-time conversation logging and analytics
+* Scalable and modular microservice-friendly design
+
+The platform is engineered to provide fast, accurate, and reliable customer support while maintaining the flexibility to integrate additional knowledge sources, language models, and enterprise workflows.
+
 
 ## Architecture
 
